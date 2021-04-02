@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="50dp"
+    android:paddingTop="10dp"
+    android:paddingRight="50dp"
+    android:paddingBottom="10dp"
+    android:weightSum="11">
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingTop="40dp"
+        android:text="@string/text1"
+        android:textAlignment="center"
+
+        android:textSize="30sp"
+        android:textColor="@color/black"></TextView>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingTop="60dp"
+        android:text="Material"
+        android:layout_below="@+id/txt1"
+
+        android:textColor="@color/black"
+        android:textSize="30sp"></Button>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingTop="40dp"
+        android:text="Lets Evaluate"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"></TextView>
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingTop="60dp"
+        android:text="Evaluate"
+        android:layout_below="@+id/txt1"
+
+        android:textColor="@color/black"
+        android:textSize="30sp"></Button>
+
+
+
+</LinearLayout>
